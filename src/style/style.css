@@ -1,0 +1,66 @@
+*{
+    color: var(--text);
+}
+.dad{
+    background-color: var(--bgAll);}
+.formAdd{
+    padding: 0%;
+    margin: auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btnAdd{
+    font-size: 150%;
+}
+.cont{
+    /* background-color: var(--text); */
+    background-image: url(../img/bg-desktop-dark.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: var(--bgAll);
+}
+.son{
+    width: 50%;
+    margin: auto;
+}
+.table{
+    background-color: var(--col);
+}
+.btnC{
+    color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+.btnC:hover{
+    transform: scale(1.2);
+}
+.btnY:hover{
+    transform: scale(1.2);
+}
+.btnD:hover{
+    transform: scale(1.2);
+}
+.btnY{
+    color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: red;
+}
+@media (max-width: 1000px) {
+
+    .son{
+        width: 100%;
+        margin: auto;
+    }
+}
